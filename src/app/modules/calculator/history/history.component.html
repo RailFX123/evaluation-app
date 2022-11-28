@@ -5,6 +5,12 @@
       class="list-group-item d-flex list-group-item-action justify-content-between align-items-start"
       (click)="onHistoryClick(history.expression)"
     >
+      <div>
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">Ninguna operación registrada</div>
+          Favor ingresar una para mostrar historial
+        </div>
+      </div>
       <div class="ms-2 me-auto">
         <div class="fw-bold">Operación: {{ history.expression }}</div>
         Resultado: {{ history.result }}
