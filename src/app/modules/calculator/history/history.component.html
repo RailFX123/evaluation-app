@@ -1,0 +1,14 @@
+<div class="container">
+  <ol class="list-group list-group-numbered">
+    <li
+      *ngFor="let history of historyList"
+      class="list-group-item d-flex list-group-item-action justify-content-between align-items-start"
+      (click)="onHistoryClick(history.expression)"
+    >
+      <div class="ms-2 me-auto">
+        <div class="fw-bold">Operación: {{ history.expression }}</div>
+        Resultado: {{ history.result }}
+      </div>
+    </li>
+  </ol>
+</div>

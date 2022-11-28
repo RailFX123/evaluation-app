@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+nav {
+  background-color: #f1ede9;
+}
+
+button {
+  border-radius: 0 !important;
+  color: #f1ede9;
+}

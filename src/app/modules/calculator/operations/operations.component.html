@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <button class="btn btn-dark" (click)="clearExpressions()">CL</button>
+    <button class="btn btn-dark" (click)="onErase()">DEL</button>
+    <button class="btn btn-dark" (click)="addOperation('+')">+</button>
+    <button class="btn btn-dark" (click)="addOperation('-')">-</button>
+  </div>
+  <div class="row">
+    <button class="btn btn-dark" (click)="addOperation('*')">*</button>
+    <button class="btn btn-dark" (click)="addOperation('/')">/</button>
+    <button class="btn btn-dark" (click)="addOperation('(')">(</button>
+    <button class="btn btn-dark" (click)="addOperation(')')">)</button>
+  </div>
+  <div class="row">
+    <button class="btn btn-dark" (click)="addOperation('^')">^</button>
+    <button class="btn btn-dark" (click)="addOperation('.')">.</button>
+    <button class="btn btn-dark" (click)="onResultPress()">=</button>
+  </div>
+</div>
